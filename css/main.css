@@ -22,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
+  overflow: hidden;
 }
 
 img {
@@ -38,6 +39,30 @@ img:nth-child(5) {
 }
 
 @media only screen and (min-width: 25em) {
+
+  img {
+    display: inline-block;
+    width: 100%;
+    float: left;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+    width: 50%;
+  }
+
+  img:nth-child(3) {
+    width: 50%;
+  }
+
+  img:nth-child(4) {
+    width: 50%;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    width: 50%;
+  }
 
 }
 
